@@ -17,7 +17,7 @@
 <body>
   <!-- Navbar -->  
   <nav class="navbar navbar-expand-lg fixed-top px-5" id="navbar">
-    <div class="container-fluid ">
+    <div class="container">
       <a class="navbar-brand text-white" href="#"><img src="assets/img/viajes.svg" alt="Logo" width="50">Viajes Chile</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
@@ -25,16 +25,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link text-white fw-lighter" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#quienes-somos">Quienes Somos</a>
+            <a class="nav-link text-white fw-lighter" href="#quienes-somos">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#destacados">Destacados</a>
+            <a class="nav-link text-white fw-lighter" href="#destacados">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#contacto">Contacto</a>
+            <a class="nav-link text-white fw-lighter" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -43,7 +43,7 @@
 
   <!-- Banner -->
   <section>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide mb-5" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="alpacas">
@@ -60,20 +60,23 @@
 
   <!-- Text section -->
   <section id="quienes-somos">
-    <div class="container p-5">
+    <div class="container p-5 d-none d-md-block">
       <h2 class="text-white text-center pb-5 fw-lighter">¿QUIÉNES SOMOS?</h2>
       <div class="row col-12 m-auto">
       <p class="col-md-4 col-sm-12 text-white">
-        <span class="bg-info d-block text-center"><i class="fa-solid fa-plane"></i></span>
+        <span class="bg-info d-block text-center"><i class="fa-solid fa-plane fs-3"></i></span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus quis tenetur nulla sed ut eligendi consequuntur labore, error adipisci porro a, iste distinctio perspiciatis alias maxime commodi? Expedita, quam.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor magnam, vitae incidunt dicta similique repellendus provident velit debitis in quia cum dolore deserunt ipsam placeat repellat reiciendis, ratione nihil iure?
       </p>
       <p class="col-md-4 col-sm-12 text-white">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laboriosam maxime ipsam reprehenderit ullam cupiditate. Nulla fuga harum id reiciendis commodi magnam amet, nihil accusamus, facere ipsa laudantium ab voluptas.
-        <span class="bg-info d-block text-center"><i class="fa-solid fa-mountain"></i></span>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo blanditiis a iure corrupti quos omnis delectus, nesciunt itaque magni non corporis ducimus impedit, officia, at sint inventore repellat et deleniti.
+        <span class="bg-info d-block text-center"><i class="fa-solid fa-mountain fs-3"></i></span>
       </p>
       <p class="col-md-4 col-sm-12 text-white">
-        <span class="bg-info d-block text-center"><i class="fa-solid fa-route"></i></span>
+        <span class="bg-info d-block text-center"><i class="fa-solid fa-route fs-3"></i></span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt nam officiis quas reprehenderit sed molestias eligendi culpa voluptas. Cumque quam rem fugit error nisi, beatae deleniti illo nesciunt sit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nihil nam. Molestias vel tempora magni incidunt iste ab, minus aperiam alias. Voluptas provident natus excepturi adipisci, porro commodi ex.
       </p>
     </div>
     </div>
@@ -82,9 +85,9 @@
   <!-- Card section -->
   <section id="destacados">
     <div class="container row col-12 justify-content-center m-auto">
-      <h2 class="text-center text-white py-3 pb-5 fw-lighter">DESTACADOS</h2>
+      <h2 class="text-center text-white py-3 fw-lighter">DESTACADOS</h2>
       <!-- card 1 -->
-      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto" style="width: 15rem;">
+      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto mt-5" style="width: 16rem;">
         <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
         <div class="card-body text-white">
           <h6>Lorem ipsum dolor sit amet</h6>
@@ -92,7 +95,7 @@
         </div>
       </div>
       <!-- card 2 -->
-      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto" style="width: 15rem;">
+      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto mt-5" style="width: 16rem;">
         <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
         <div class="card-body text-white">
           <h6>Lorem ipsum dolor sit amet</h6>
@@ -100,7 +103,7 @@
         </div>
       </div>
       <!-- card 3 -->
-      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto" style="width: 15rem;">
+      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto mt-5" style="width: 16rem;">
         <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
         <div class="card-body text-white">
           <h6>Lorem ipsum dolor sit amet</h6>
@@ -108,7 +111,7 @@
         </div>
       </div>
       <!-- card 4 -->
-      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto" style="width: 15rem;">
+      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto mt-5" style="width: 16rem;">
         <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
         <div class="card-body text-white">
           <h6>Lorem ipsum dolor sit amet</h6>
@@ -119,7 +122,7 @@
   </section>
 
   <!-- Contact section -->
-  <section id="contacto">
+  <section id="contacto" class="mt-5">
     <h2 class="text-center text-white m-auto p-5 fw-lighter">CONTACTO</h2>
     <div class="col-10 justify-content-center m-auto p-1">
       <div class="mb-3 text-white">
@@ -134,18 +137,24 @@
         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
+      <button type="button" class="btn btn-info text-white mb-5">Enviar</button>
     </div>
+    
   </section>
 
   <!-- Footer -->
   <footer class="bg-info">
-    <div class="container row">
-      <h3 class="fw-lighter text-white">VIAJES CHILE</h3>
-      <div class="text-white justify-content-end m-auto text">
-        <a href=""><i class="fa-brands fa-square-github text-white fs-2"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin text-white fs-2"></i></a>
-        <a href=""><i class="fa-brands fa-square-x-twitter text-white fs-2"></i></a>
-        <a href=""><i class="fa-brands fa-square-facebook text-white fs-2"></i></a>
+    <div class="container p-3 align-middle">
+      <div class="d-flex justify-content-between">
+        <div>
+          <h3 class="fw-lighter text-white">VIAJES CHILE</h3>
+        </div>
+        <div class="text-white">
+          <a href=""><i class="fa-brands fa-square-github text-white fs-2 ms-2"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin text-white fs-2 ms-2"></i></a>
+          <a href=""><i class="fa-brands fa-square-x-twitter text-white fs-2 ms-2"></i></a>
+          <a href=""><i class="fa-brands fa-square-facebook text-white fs-2 ms-2"></i></a>
+        </div>
       </div>
     </div>
   </footer>
