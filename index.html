@@ -28,13 +28,13 @@
             <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Quienes Somos</a>
+            <a class="nav-link text-white" href="#quienes-somos">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Destacados</a>
+            <a class="nav-link text-white" href="#destacados">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contacto</a>
+            <a class="nav-link text-white" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -57,10 +57,11 @@
       </div>
     </div>
   </section>
+
   <!-- Text section -->
-  <section>
+  <section id="quienes-somos">
     <div class="container p-5">
-      <h2 class="text-white text-center pb-5">¿QUIÉNES SOMOS?</h2>
+      <h2 class="text-white text-center pb-5 fw-lighter">¿QUIÉNES SOMOS?</h2>
       <div class="row col-12 m-auto">
       <p class="col-md-4 col-sm-12 text-white">
         <span class="bg-info d-block text-center"><i class="fa-solid fa-plane"></i></span>
@@ -77,34 +78,40 @@
     </div>
     </div>
   </section>
+
   <!-- Card section -->
-  <section>
-    <div>
+  <section id="destacados">
+    <div class="container row col-12 justify-content-center m-auto">
+      <h2 class="text-center text-white py-3 pb-5 fw-lighter">DESTACADOS</h2>
       <!-- card 1 -->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
+      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto" style="width: 15rem;">
+        <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
+        <div class="card-body text-white">
+          <h6>Lorem ipsum dolor sit amet</h6>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
       <!-- card 2 -->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
+      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto" style="width: 15rem;">
+        <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
+        <div class="card-body text-white">
+          <h6>Lorem ipsum dolor sit amet</h6>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
       <!-- card 3 -->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
+      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto" style="width: 15rem;">
+        <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
+        <div class="card-body text-white">
+          <h6>Lorem ipsum dolor sit amet</h6>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
       <!-- card 4 -->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
+      <div class="card col-md-3 col-sm-12 bg-info p-0 m-auto" style="width: 15rem;">
+        <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
+        <div class="card-body text-white">
+          <h6>Lorem ipsum dolor sit amet</h6>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
@@ -112,20 +119,35 @@
   </section>
 
   <!-- Contact section -->
-  <section>
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <section id="contacto">
+    <h2 class="text-center text-white m-auto p-5 fw-lighter">CONTACTO</h2>
+    <div class="col-10 justify-content-center m-auto p-1">
+      <div class="mb-3 text-white">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3 text-white">
+        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+        <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3 text-white">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    
+  <footer class="bg-info">
+    <div class="container row">
+      <h3 class="fw-lighter text-white">VIAJES CHILE</h3>
+      <div class="text-white justify-content-end m-auto text">
+        <a href=""><i class="fa-brands fa-square-github text-white fs-2"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin text-white fs-2"></i></a>
+        <a href=""><i class="fa-brands fa-square-x-twitter text-white fs-2"></i></a>
+        <a href=""><i class="fa-brands fa-square-facebook text-white fs-2"></i></a>
+      </div>
+    </div>
   </footer>
 
   <!-- Conexión hoja script -->
